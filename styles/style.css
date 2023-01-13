@@ -97,9 +97,14 @@ main{
 
 /* Course Seciton */
 
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .course-article{
-    width: 253px;
+    width: 225px;
     height: 270px;
+    background-color: #FFFFFF;
     filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
     border-radius: 5px;
     padding:13px;
@@ -116,5 +121,20 @@ main{
 .blog-info, .course-time{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
+}
+
+.blog-info p{
+    font-size: 12px;
+}
+
+.course-time{
+    background-color: #FFE4E8;
+    border-radius: 40px;
+    padding: 0 10px;
+}
+.course-time p{
+    margin-left: 10px;
+    font-size: 12px;
 }
