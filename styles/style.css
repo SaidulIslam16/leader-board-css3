@@ -11,7 +11,8 @@ body{
 
 main{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* Container Style */
@@ -19,6 +20,8 @@ main{
     width: 870px;
     background-color: #FFFFFF;
     padding:30px 30px 42px 30px;
+    border-radius: 5px;
+    margin-top: 21px;
 }
 
 /* Player Section Style */
@@ -56,7 +59,7 @@ main{
 /* top Blogs */
 
 .blog-section{
-    margin: 30px;
+    margin: 30px 0;
 }
 .blogs{
     display: grid;
@@ -90,4 +93,28 @@ main{
 
 .author a{
     color: #562EFF;
+}
+
+/* Course Seciton */
+
+.course-article{
+    width: 253px;
+    height: 270px;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+    border-radius: 5px;
+    padding:13px;
+}
+.course-article img{
+    width: 224px;
+    height: 104px;
+}
+.fa-solid{
+    font-size: 12px;
+}
+
+
+.blog-info, .course-time{
+    display: flex;
+    align-items: center;
+
 }
