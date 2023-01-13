@@ -1,0 +1,39 @@
+
+/* *{
+    background-color: rgb(227, 225, 225);
+} */
+
+/* Main Container */
+
+/* .main-container{
+width: 1200px;
+background-color: white;
+border: 2px solid saddlebrown;
+} */
+
+
+/* Top Player Stying */
+
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 2px solid saddlebrown; */
+}
+
+.player{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px ;
+}
+
+.player h3{
+    margin-left: 20px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
