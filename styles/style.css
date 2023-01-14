@@ -136,11 +136,11 @@ main{
 /* Ratings */
 
 .fa-star.filled{
-    color: gold;
+    color: #FFC014;
 }
 
 .unfilled{
-
+    color:#AEAEAE;
 }
 .course-time{
     background-color: #FFE4E8;
