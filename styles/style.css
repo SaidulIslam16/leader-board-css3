@@ -67,7 +67,7 @@ header{
     max-width: 870px;
     width: 100%;
     background-color: #FFFFFF;
-    padding:30px 30px 30px 30px;
+    padding:30px;
     border-radius: 5px;
     margin-top: 21px;
 }
@@ -196,4 +196,71 @@ header{
     font-size: 12px;
 }
 
+/* Responsive Styling */
+
+@media screen and (max-width:576px){
+  
+
+    /* Universal Styles  */
+
+
+
+    /* Navigation Responsive */
+  
+    .nav-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-section{
+        margin: 0 auto;
+    }
+    .navigation{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navigation a{
+        margin: 0;
+    }
+
+    /* Top Player Responsive */
+
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .top-players{
+        padding: 0 20px;
+    }
+
+    /* Blog Section Style  */
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+        /* Course SEction  */
+    .courses{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap:20px;
+    }
+
+
+    .course-article img{
+        width: auto;
+        height: 200px;
+    }
+    .blog-info{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .course-time{
+        margin-left: 20px;
+    }
+
+}
 
