@@ -64,8 +64,7 @@ header{
 
 /* Container Style */
 .container{
-    max-width: 870px;
-    width: 100%;
+    width: 870px;
     background-color: #FFFFFF;
     padding:30px;
     border-radius: 5px;
@@ -202,9 +201,10 @@ header{
   
 
     /* Universal Styles  */
-
-
-
+    /* .container{
+        width: 100%;
+        padding: 30px; */
+    }
     /* Navigation Responsive */
   
     .nav-section{
@@ -231,9 +231,9 @@ header{
 
     }
 
-    .top-players{
+    /* .top-players{
         padding: 0 20px;
-    }
+    } */
 
     /* Blog Section Style  */
     .blogs{
@@ -256,6 +256,10 @@ header{
     .blog-info{
         display: flex;
         justify-content: flex-start;
+    }
+
+    .blog-info p{
+        margin-left: 20px;
     }
 
     .course-time{
